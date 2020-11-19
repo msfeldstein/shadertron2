@@ -1,0 +1,23 @@
+{
+  "name": "shadertron2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "budo": "^11.6.4",
+    "canvas-sketch": "^0.7.4",
+    "glsl-noise": "0.0.0",
+    "glslify": "^7.1.1",
+    "primitive-quad": "^2.0.0",
+    "regl": "^2.0.1",
+    "save": "^2.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "budo index.js -o -l -- -t [glslify]",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
